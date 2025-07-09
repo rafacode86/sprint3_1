@@ -5,4 +5,6 @@
     $tigger->roar();
     $tigger->roar();
     $tigger->getCounter();
+
+    $tigger2 = Tigger::getInstance();
 ?>

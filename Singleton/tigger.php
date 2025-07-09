@@ -10,6 +10,7 @@
             if(self::$instance == null) {
                 self::$instance = new Tigger();
             }
+            echo "Tigger no hay mas que uno!!!" . PHP_EOL;
             return self::$instance;
         }
         public function roar() {
@@ -17,7 +18,7 @@
             self::$counter++;
         }
         public function getCounter() {
-            echo self::$counter;
+            echo self::$counter . PHP_EOL;
         }
     }
 
